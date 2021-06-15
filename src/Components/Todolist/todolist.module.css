@@ -1,0 +1,82 @@
+.rootCont{
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.911);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    width: 600px;
+    height: 300px;
+}
+
+.mainInput{
+    font-size: 35px;
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 0.787);
+    background-color: transparent;
+    width: 100%;
+    border: none;
+}
+
+.itemText{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    padding-top: 10px;
+    border: none;
+}
+
+.mainInput:focus{
+    border: none;
+    outline: none;
+}
+
+.links{
+    display: flex;
+}
+
+.link, .slash{
+    color: grey;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.link:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.item{
+    margin-top: 20px;
+    display: flex;
+}
+
+.itemTextCont{
+    width: 80%;
+    /* border:1px solid white; */
+}
+
+.actionsCont{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.actionCont{
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+}
